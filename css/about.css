@@ -1,0 +1,105 @@
+.card-sobre{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 70px;
+}
+
+#dados{
+  text-align: center;
+  margin: 0 50px;
+}
+
+#dados img{
+  border-radius: 50%;
+}
+
+#titulo{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+#titulo h1{
+
+  color:  var(--cor2);
+  font-size: 3em;
+  font-weight: normal;
+}
+
+#titulo h1 span{
+  color: var(--cor4);
+  font-size: 30px;
+  font-weight: normal;
+}
+
+#titulo a{
+  background: linear-gradient(90deg, #FF5951 0%, #D95821 37%, #F09930 100%);
+  text-decoration: none;
+  padding: 8px;
+  text-align: center;
+  width: 40%;
+  font-size: 13px;
+  color: var(--cor3);
+  border-radius: 8px;
+  transition: 0.2s linear;
+}
+
+#titulo a:hover{
+  transform: scale(0.9);
+  background: linear-gradient(90deg, #FF5951 0%, #F09930 100%);
+}
+
+table{
+  border-collapse: collapse;
+  color: var(--cor4);
+}
+
+td,th{
+  padding: 8px;
+  border: 1px solid rgb(69, 68, 68);
+  text-align: center;
+}
+
+#about {
+  margin:50px auto;
+  font-size: 1.2em;
+  width: 80%;
+  letter-spacing: 0.1px;
+  text-indent: 30px;
+  color: var(--cor4);
+}
+
+#about  h2 {
+  text-align: center;
+  font-size: 2em;
+  padding: 15px;
+  color:var(--cor3);
+}
+
+@media(max-width:480px){
+  .card-sobre{
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding: 0;
+    margin: 50px 20px;
+    text-align: center;
+  }
+  #dados, #dados img{
+    margin: 20px;
+  }
+  #titulo a{
+    width: 100% ;
+    font-size: 1em;
+  }
+  #about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #about p{
+    font-size: 0.8em;
+    padding: 20px;
+  }
+}
