@@ -104,3 +104,9 @@
   }
 }
 
+@media(max-width:470px){
+  .modal-body video{
+    display: none;
+  }
+  
+}

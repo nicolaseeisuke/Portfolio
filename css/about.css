@@ -77,7 +77,7 @@ td,th{
   color:var(--cor3);
 }
 
-@media(max-width:480px){
+@media(max-width:470px){
   .card-sobre{
     flex-wrap: wrap-reverse;
     justify-content: center;
