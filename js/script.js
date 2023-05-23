@@ -27,21 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Efeito scrool
-const debounce = function(func, wait, immediate) {
-    let timeout;
-    return function(...args) {
-        const context = this;
-        const later = function() {
-            timeout = null;
-            if(!immediate) func.apply(context, args)
-        };
-        const callNow = immediate && !timeout;
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-        if(callNow) func.apply(context, args);
-    };
-};
-
 const target = document.querySelectorAll('[data-anime');
 const animationClass = 'animate';
 
@@ -59,9 +44,9 @@ function animeScroll(){
   })
 }
 
-window.addEventListener('scroll', debounce(function() {
+window.addEventListener('scroll', function() {
     animeScroll()
-}, 200));
+});
 
 function openModal() {
     document.querySelector('body').style.overflow = 'hidden'
