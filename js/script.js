@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Efeito scrool
-const target = document.querySelectorAll('[data-anime');
+const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
 function animeScroll(){
