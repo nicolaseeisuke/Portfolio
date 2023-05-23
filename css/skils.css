@@ -48,3 +48,10 @@
   font-size: 55px;
   color: var(--cor2);
 }
+
+@media (max-width:490px){
+  .box{
+    margin: 15px;
+    border-radius: 10px;
+  }
+}

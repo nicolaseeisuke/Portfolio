@@ -96,3 +96,30 @@ function openModal() {
     document.querySelector('body').style.overflow = 'auto'
   }
   
+
+  function openModal3() {
+    document.querySelector('body').style.overflow = 'hidden'
+    document.getElementById("modal3").style.display = "block"
+  }
+  
+  function closeModal3() {
+    document.getElementById("modal3").style.display = "none"
+    document.querySelector('body').style.overflow = 'auto'
+  }
+
+  
+
+
+
+
+
+
+  function openModal4() {
+    document.querySelector('body').style.overflow = 'hidden'
+    document.getElementById("modal4").style.display = "block"
+  }
+  
+  function closeModal4() {
+    document.getElementById("modal4").style.display = "none"
+    document.querySelector('body').style.overflow = 'auto'
+  }

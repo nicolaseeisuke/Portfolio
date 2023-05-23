@@ -27,7 +27,7 @@
 
 
 /* styles.css */
-.modal, .modal1, .modal2{
+.modal, .modal1, .modal2,.modal3,.modal4{
   display: none;
   position: fixed;
   z-index: 5;
@@ -38,7 +38,7 @@
   height: 100vh;
 }
 
-.modal-content, .modal-content1,.modal-content2{
+.modal-content, .modal-content1,.modal-content2,.modal-content3,.modal-content4{
   position: fixed;
   background: var(--cor4);
   left: 50%;

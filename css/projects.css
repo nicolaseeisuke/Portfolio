@@ -24,8 +24,7 @@ article:hover{
 }
 
 @media (max-width:490px){
-  .card{
-    flex-direction: column;
-    margin: 0px 20px;
+  #projects{
+    margin: 20px;
   }
 }
