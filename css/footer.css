@@ -2,6 +2,7 @@ footer{
   border-top: 1px solid white;
   text-align: center;
   margin-top: 200px 50px;
+
 }
 footer h2{
   font-size: 2em;
@@ -9,8 +10,13 @@ footer h2{
   padding: 25px;
 }
 
+.contatos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .card-contatos{
-  display: inline-block;
   text-align: center;
   margin: 30px 10px;
   font-weight: bolder;
@@ -30,4 +36,11 @@ footer h2{
 
 .card-contatos:hover{
   transform:scale(0.9)
+}
+
+@media(max-width:470px){
+  .card-contatos span{
+    color: white;
+     font-size: 13px;
+  }
 }
