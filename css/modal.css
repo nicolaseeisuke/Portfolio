@@ -27,7 +27,9 @@
 
 
 /* styles.css */
-.modal, .modal1, .modal2,.modal3,.modal4{
+.modalLoginInterativo, .modalCronometro, 
+.modalLoginCodehal,.modalJogoDaVelha,
+.modalCalculadora{
   display: none;
   position: fixed;
   z-index: 5;
@@ -38,7 +40,9 @@
   height: 100vh;
 }
 
-.modal-content, .modal-content1,.modal-content2,.modal-content3,.modal-content4{
+.modal-LoginInterativo, .modal-Cronometro,
+.modal-LoginCodehal,.modal-JogoDaVelha,
+.modal-Calculadora{
   position: fixed;
   background: var(--cor4);
   left: 50%;
@@ -108,5 +112,6 @@
   .modal-body video{
     display: none;
   }
+  
   
 }

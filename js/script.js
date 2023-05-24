@@ -48,63 +48,52 @@ window.addEventListener('scroll', function() {
     animeScroll()
 });
 
-function openModal() {
+function openModalLoginInterativo() {
+  document.getElementById("modalLoginInterativo").style.display = "block"
     document.querySelector('body').style.overflow = 'hidden'
-    document.getElementById("modal").style.display = "block"
   }
   
-  function closeModal() {
-    document.getElementById("modal").style.display = "none"
-    document.querySelector('body').style.overflow = 'auto'
+function closeModalLoginInterativo() {
+  document.getElementById("modalLoginInterativo").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
   }
-  
 
-  function openModal1() {
-    document.querySelector('body').style.overflow = 'hidden'
-    document.getElementById("modal1").style.display = "block"
+function openModalCronometro() {
+  document.getElementById("modalCronometro").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
+  
+function closeModalCronometro() {
+  document.getElementById("modalCronometro").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}
+
+function openModalLoginCodehal() {
+  document.getElementById("modalLoginCodehal").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
+  
+function closeModalLoginCodehal() {
+  document.getElementById("modalLoginCodehal").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}
     
-  }
+function openModalJogoDaVelha() {
+  document.getElementById("modalJogoDaVelha").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
   
-  function closeModal1() {
-    document.querySelector('body').style.overflow = 'auto'
-    document.getElementById("modal1").style.display = "none"
-  }
+function closeModalJogoDaVelha() {
+  document.getElementById("modalJogoDaVelha").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}
 
+function openModalCalculadora() {
+  document.getElementById("modalCalculadora").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
   
-  function openModal2() {
-    document.querySelector('body').style.overflow = 'hidden'
-    document.getElementById("modal2").style.display = "block"
-  }
-  
-  function closeModal2() {
-    document.getElementById("modal2").style.display = "none"
-    document.querySelector('body').style.overflow = 'auto'
-  }
-  
-
-  function openModal3() {
-    document.querySelector('body').style.overflow = 'hidden'
-    document.getElementById("modal3").style.display = "block"
-  }
-  
-  function closeModal3() {
-    document.getElementById("modal3").style.display = "none"
-    document.querySelector('body').style.overflow = 'auto'
-  }
-
-  
-
-
-
-
-
-
-  function openModal4() {
-    document.querySelector('body').style.overflow = 'hidden'
-    document.getElementById("modal4").style.display = "block"
-  }
-  
-  function closeModal4() {
-    document.getElementById("modal4").style.display = "none"
-    document.querySelector('body').style.overflow = 'auto'
-  }
+function closeModalCalculadora() {
+  document.getElementById("modalCalculadora").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}
