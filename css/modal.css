@@ -112,6 +112,9 @@
     margin: 0;
     margin-bottom: 20px; 
   }
+  .modal-body .links a{
+    margin-left: 0;
+  }
   
   
 }
