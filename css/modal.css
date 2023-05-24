@@ -112,6 +112,12 @@
   .modal-body video{
     display: none;
   }
+
+  .links a{
+    width: 100px;
+    padding: 5px;
+    margin-left: 8px;
+  }
   
   
 }
