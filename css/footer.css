@@ -17,7 +17,6 @@ footer h2{
 }
 
 .card-contatos{
-  text-align: center;
   margin: 30px 10px;
   font-weight: bolder;
   cursor: pointer;
@@ -26,7 +25,6 @@ footer h2{
 }
 
 .card-contatos a{
-  color: var(--cor4);
   text-decoration: none;
 }
 

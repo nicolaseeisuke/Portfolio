@@ -28,4 +28,7 @@ article:hover{
     margin: 10px auto;
     text-align: center;
   }
+  .article{
+    margin: 15px 0
+  }
 }

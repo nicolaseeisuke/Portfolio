@@ -73,11 +73,6 @@
   color: var(--cor3);
 }
 
-.modal-body section{
-  margin:25px;
-  letter-spacing: 0.1px;
-}
-
 .modal-body section p{
   margin:25px;
   letter-spacing: 0.1px;
@@ -113,10 +108,9 @@
     display: none;
   }
 
-  .links a{
-    width: 100px;
-    padding: 5px;
-    margin-left: 8px;
+  .modal-body section p{
+    margin: 0;
+    margin-bottom: 20px; 
   }
   
   
