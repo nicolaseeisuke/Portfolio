@@ -21,16 +21,15 @@
 }
 
 .ligth:root{
-    --cor1: rgb(238,238,238);
+    --cor1: rgb(152, 152, 152);
     --cor2: rgb(226,102,102);
-    --cor3:  #111;
+    --cor3:  #F9F9F9;
     --cor4: rgb(104, 104, 104);
     --cor5: rgb(31,31,51);
 }
 
 body{
     background-color: var(--cor1);
-    animation:  fadeIn 2s linear;
 } 
 
 [data-anime]{
@@ -56,10 +55,3 @@ body{
     background-color: var(--cor2);
 }
 
-@keyframes fadeIn {
-    from{
-        opacity: 0;
-    }to{
-        opacity: 1;
-    }
-}

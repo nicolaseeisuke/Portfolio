@@ -1,6 +1,6 @@
 #projects{
-  margin: 200px 50px;
-  text-align: center;
+  margin: 200px auto;
+  
 }
 
 #projects h2{
@@ -10,12 +10,16 @@
   padding: 25px;
 }
 
-
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+}
 
 .article{
   position: relative;
   width: 350px;
-  display: inline-block;
   height: 220px;
   box-shadow: 0 0 0 5px var(--cor2);
   margin: 15px;
@@ -23,15 +27,5 @@
 }
 
 article:hover{
-  transform: scale(1.03);
-}
-
-@media (max-width:490px){
-  #projects{
-    margin: 10px auto;
-    text-align: center;
-  }
-  .article{
-    margin: 15px;
-  }
+  transform: scale(0.9);
 }

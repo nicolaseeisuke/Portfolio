@@ -27,9 +27,7 @@
 
 
 /* styles.css */
-.modalJobFinder ,.modalLoginInterativo, 
-.modalCronometro,  .modalLoginCodehal,
-.modalJogoDaVelha, .modalCalculadora{
+.modal, .modal1, .modal2{
   display: none;
   position: fixed;
   z-index: 5;
@@ -40,9 +38,7 @@
   height: 100vh;
 }
 
-.modal-JobFinder,.modal-LoginInterativo, 
-.modal-Cronometro, .modal-LoginCodehal,
-.modal-JogoDaVelha, .modal-Calculadora{
+.modal-content, .modal-content1,.modal-content2{
   position: fixed;
   background: var(--cor4);
   left: 50%;
@@ -53,7 +49,6 @@
   padding: 20px;
   border: 1px solid #888;
   width: 700px;
-  max-width: 90%;
   border-radius: 10px;
   animation: FadeIn .3s linear;
 }
@@ -71,6 +66,11 @@
 .modal-header h4{
   font-size: 1.5em;
   color: var(--cor3);
+}
+
+.modal-body section{
+  margin:25px;
+  letter-spacing: 0.1px;
 }
 
 .modal-body section p{
@@ -101,20 +101,4 @@
   }to{
       opacity: 1;
   }
-}
-
-@media(max-width:470px){
-  .modal-body video{
-    display: none;
-  }
-
-  .modal-body section p{
-    margin: 0;
-    margin-bottom: 20px; 
-  }
-  .modal-body .links a{
-    margin-left: 0;
-  }
-  
-  
 }

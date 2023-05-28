@@ -48,6 +48,17 @@ window.addEventListener('scroll', function() {
     animeScroll()
 });
 
+function openModalJobFinder() {
+  document.getElementById("modalJobFinder").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
+  
+function closeModalJobFinder() {
+  document.getElementById("modalJobFinder").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}
+
+
 function openModalLoginInterativo() {
   document.getElementById("modalLoginInterativo").style.display = "block"
     document.querySelector('body').style.overflow = 'hidden'

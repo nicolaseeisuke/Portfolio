@@ -38,7 +38,7 @@
                     <a href="img/curriculonicolas.pdf" download target="_blank" >Download cv</a>
             </div>
             <div id = "dados">
-                <img src="img/selfie1.png" alt="" width="300" height="300">
+                <img src="img/selfie1.png" alt="">
                 <table>
                     <tr>
                         <th>Nome:</th>
@@ -92,6 +92,10 @@
         <aside id="projects" data-anime="left"> 
             <h2>Projetos</h2> 
             <section class="card" >
+                <article class="article" id="job-Finder">
+                         <img src="./img/job-finder.JPG" alt="" width="350" height="200">  
+                        <button  onclick="openModalJobFinder()" class="buttonAbrir">Ver mais</button>   
+                </article>
                 <article class="article" id="login">
                          <img src="./img/login-interativo.JPG" alt="" width="350" height="200">  
                         <button  onclick="openModalLoginInterativo()" class="buttonAbrir">Ver mais</button>   
@@ -128,6 +132,26 @@
                 </div>
             </section>
     </footer>
+    <div id="modalJobFinder" class="modalJobFinder">
+        <div class="modal-JobFinder">
+            <div class="modal-header">
+                <h4>Job Finder</h4>
+                <span onclick="closeModalJobFinder()" class="buttonFechar">&times;</span>
+            </div>
+            <div class="modal-body">
+                <section>
+                    <video src="videos/login-interativo.mp4" controls width="100%" height="300px"></video>
+                </section>
+                <section>
+                    <p>A ideia desse projeto foi de um video que assisti no youtube, um desafio para criar uma interface de login com animações, as cores foram escolhidas por mim e foi desenvolvido aprenas com HTML5 e CSS3</p>
+                </section>
+                <section class="links">
+                    <a href="https://login-interativo.vercel.app/" target="_blank ">Acessar  projeto</a>
+                    <a href="https://github.com/nicolaseeisuke/Job-Finder" target="_blank ">Acessar repositório</a>
+                </section>
+            </div>
+        </div>
+    </div>
     <div id="modalLoginInterativo" class="modalLoginInterativo">
         <div class="modal-LoginInterativo">
             <div class="modal-header">
