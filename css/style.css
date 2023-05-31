@@ -30,7 +30,7 @@
 
 body{
     background-color: var(--cor1);
-    animation:  fadeIn 2s linear;
+    animation:  fadeIn 1s linear;
 } 
 
 [data-anime]{

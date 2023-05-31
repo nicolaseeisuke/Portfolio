@@ -108,3 +108,13 @@ function closeModalCalculadora() {
   document.getElementById("modalCalculadora").style.display = "none"
   document.querySelector('body').style.overflow = 'auto'
 }
+
+function openModalClima(){
+  document.getElementById("modalClima").style.display = "block"
+  document.querySelector('body').style.overflow = 'hidden'
+}
+
+function closeModalClima() {
+  document.getElementById("modalClima").style.display = "none"
+  document.querySelector('body').style.overflow = 'auto'
+}

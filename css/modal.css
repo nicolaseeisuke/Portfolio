@@ -29,7 +29,8 @@
 /* styles.css */
 .modalJobFinder ,.modalLoginInterativo, 
 .modalCronometro,  .modalLoginCodehal,
-.modalJogoDaVelha, .modalCalculadora{
+.modalJogoDaVelha, .modalCalculadora,
+.modalClima{
   display: none;
   position: fixed;
   z-index: 5;
@@ -42,7 +43,8 @@
 
 .modal-JobFinder,.modal-LoginInterativo, 
 .modal-Cronometro, .modal-LoginCodehal,
-.modal-JogoDaVelha, .modal-Calculadora{
+.modal-JogoDaVelha, .modal-Calculadora,
+.modal-Clima{
   position: fixed;
   background: var(--cor4);
   left: 50%;
