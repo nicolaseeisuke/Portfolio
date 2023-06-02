@@ -1,6 +1,6 @@
 #projects{
-  margin: 200px 100px;
-  
+  margin: 200px 50px;
+  text-align: center;
 }
 
 #projects h2{
@@ -9,8 +9,6 @@
   color:var(--cor3);
   padding: 25px;
 }
-
-
 
 .article{
   position: relative;
